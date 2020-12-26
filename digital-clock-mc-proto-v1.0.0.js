@@ -118,7 +118,7 @@ $(document).ready(function(){
         testLoop = setInterval(function(){
             displayTimeObject.innerHTML = theTime();
             displayDateObject.innerHTML = theDay();
-        }, 100); // interval is 1second
+        }, 1000); // interval is 1second
 
     }
     displayTheClock(); // run on page load

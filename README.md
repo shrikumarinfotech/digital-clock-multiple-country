@@ -1,4 +1,4 @@
-# Clock Plugin for npm and HTML use
+# Clock Plugin for multiple countries
 This is a clock plugin made with JavaScript that displays clock in your local time zone.
 
 # Usage
@@ -40,3 +40,4 @@ index.html
 ```
 
 # Live URL
+https://shrikumarinfotech.github.io/digital-clock-multiple-country/
