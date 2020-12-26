@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multi Country</title>
+    <link rel="stylesheet" href="./includes/stylesheets/digital-clock-mc-v1.0.0.css">
+</head>
+<body>
+    <!-- Select Timezone form -->
+    <div id="time-zone-selector" class="time-zone-selector">
+        <h1>World Clock</h1>
+        <form id="time-zone" method="POST">
+            <label for="timezone" class="input-label">Select Timezone:</label>
+            <select name="timezone" class="input-text">
+                <option>-- Select Country/Region --</option>
+                <option value="Africa/Tunis">Africa/Tunis</option>
+                <option value="Asia/Dubai">Asia/Dubai</option>
+                <option value="America/St_Johns">America/St_Johns Newfoundland; Labrador (southeast)</option>
+                <option value="America/Tijuana">America/Tijuana	Pacific Time US - Baja California</option>
+                <option value="America/New_York">America/New_York Eastern (most areas)</option>
+                <option value="Asia/Shanghai">Asia/Shanghai	Beijing Time</option>
+                <option value="Asia/Hong_Kong">Asia/Hong_Kong</option>
+                <option value="Asia/Singapore">Asia/Singapore</option>
+                <option value="Asia/Tokyo">Asia/Tokyo</option>
+                <option value="Asia/Kolkata">Asia/Kolkata</option>
+                <option value="Australia/Melbourne">Australia/Melbourne</option>
+                <option value="Europe/London">Europe/London</option>
+                <option value="Europe/Andorra">Europe/Andorra</option>
+                <option value="Europe/Vienna">Europe/Vienna</option>
+                <option value="Europe/Dublin">Europe/Dublin</option>
+                <option value="Europe/Paris">Europe/Paris</option>
+                <option value="Europe/Prague">Europe/Prague</option>
+                <option value="Europe/Berlin">Europe/Berlin</option>
+                <option value="Europe/Istanbul">Europe/Istanbul</option>
+            </select>
+            <input type="submit" name="submit" class="submit-button" value="Submit">
+        </form>
+    </div>
+
+    <!-- Digital clock -->
+    <div class="digital-clock-wrapper">
+        <div id="digital-clock">
+            <div id="display-time"></div>
+            <div id="display-date"></div>
+            <div id="display-timezone"></div>
+            <div id="display-timezoneshort"></div>
+        </div>
+    </div>
+    
+    <script src="./includes/javascripts/jquery-3.5.1.min.js"></script>
+    <script src="digital-clock-mc-proto-v1.0.0.js"></script>
+</body>
+</html>
